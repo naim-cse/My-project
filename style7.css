@@ -1,0 +1,256 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+
+#navbar {
+    background-image:linear-gradient(red ,rgb(33, 3, 3));
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+#navbar >ul {
+    display:flex;
+    margin-right:50px;
+
+}
+#navbar> ul> li {
+list-style: none;
+margin:0px 5px;
+margin-left:-5px;
+padding:15px 0px;
+
+}
+#navbar> ul >li > a{
+    text-decoration:none;
+color:white;
+font-size:18px;
+border-right:2px solid white;
+padding:16px 20px;
+transition: 3s;
+}
+#navbar > ul > li:first-child > a {
+    border-left:2px solid white;
+}
+#navbar >ul >li:hover >a {
+    background-color:red;
+}
+.dropdown {
+    opacity:0;
+    visibility: hidden;
+   background-image:linear-gradient(red,rgb(49, 7, 7)); 
+   text-align: center;
+   margin-top: 15px;;
+   width: 180px;
+   position: absolute;
+   transition: 1s;
+   box-shadow: 10px 10px 8px black;
+   transform: scaleY(0);
+   transform-origin: top;
+ 
+}
+.dropdown > li {
+    list-style: none;
+    padding:10px 0px;
+    border-bottom:2px solid white;
+}
+.dropdown >li:hover {
+    background-color: rgba(255, 235, 205, 0.323);
+}
+.dropdown > li:first-child {
+    border-top:2px solid white;
+}
+.dropdown >li > a {
+    text-decoration:none;
+    color:rgb(127, 217, 255);
+}
+#navbar > ul > li:hover > .dropdown{
+    opacity:1;
+    visibility: visible;
+    transform: scaleY(1);
+
+}
+#hero-area{
+    text-align:center;
+    background-image:linear-gradient(rgba(99, 93, 93, 0.76),rgba(74, 53, 53, 0.832)), url("Screenshot\ 2026-01-17\ 221609.png");
+    height: 600px;px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+
+}
+#hero-text{
+    padding-top:100px;
+}
+#hero-text > button {
+    font-size:22px;
+    padding:15px 25px;
+    margin-top:20px;
+    background-color:blueviolet;
+    color:white;
+    border-radius:30px 10px 30px 10px;
+    border:4px solid green;
+    cursor:pointer;
+    transition: 1s;
+
+}
+#hero-text > button:hover{
+    background-color:rgba(0, 0, 0, 0);
+}
+.first-text{
+    
+    width:1000px;
+    margin:auto;
+    display:flex;
+    padding:30px;
+
+}
+.first_design {
+    width:300px;
+    text-align:center;
+    padding:30px 10px;
+    transition: 2s;
+}
+.first_design > i {
+    font-size:50px;
+}
+.first_design >h2 {
+    margin: 15px 0px;
+
+}
+.first_design:hover {
+    box-shadow: 3px 3px 10px gray;
+
+}
+.smart_design > h2 {
+    font-size:40px;
+    text-align:center;
+    color:rgb(17, 17, 2);
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.smart-area {
+    width: 100%;
+    padding: 80px 0;
+    background: #fafafa;
+}
+
+.smart-area h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.image-box img {
+    width: 420px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+}
+
+.text-box h5 {
+    color: #6c63ff;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.text-box h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.text-box p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 35px;
+    background: #6c63ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #5548d9;
+}
+.services {
+    text-align:center;
+}
+.services > h2 {
+    font-size:40px;
+}
+.full_services {
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:20px;
+    padding-bottom:60px;
+    padding-top:60px;
+
+}
+.services_area {
+width:1000px;
+margin:auto;
+
+}
+.mahim{
+    background-color: gray;
+    text-align:center;
+    padding:30px 0px;
+    transition: 1s;
+}
+.mahim > i {
+    font-size:40px;
+    color:#ba191e;
+}
+.mahim > h2 {
+    margin:15px;
+}
+.mahim:hover {
+  background-color:lab(34.15% 51.94 35.86)
+}
+.photo {
+    width:150px;
+    height:auto;
+}
+.programming {
+    display:flex;
+    margin-left:80px;
+    margin-bottom:20px;
+    border-radius: 45px;
+
+}
+.popo{
+    text-align:center;
+    font-size:40px;
+    padding:50px 0px;
+    border-radius: 45px;
+}
+
+.card {
+padding:45px;
+text-align: center;
+}
